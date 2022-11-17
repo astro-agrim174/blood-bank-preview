@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .hero{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F8F8;
+  }
+
+  .hero h1{
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .hero img{
+    width:600px;
+    height:auto;
+    margin: auto 0;
+  }
+
+  .hero p{
+    display:flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    line-height:50px;
+  }
